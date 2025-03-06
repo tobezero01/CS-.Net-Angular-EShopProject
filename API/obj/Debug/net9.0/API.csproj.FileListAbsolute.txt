@@ -304,3 +304,11 @@ D:\CS\Dating-App\API\obj\Debug\net9.0\refint\API.dll
 D:\CS\Dating-App\API\obj\Debug\net9.0\API.pdb
 D:\CS\Dating-App\API\obj\Debug\net9.0\API.genruntimeconfig.cache
 D:\CS\Dating-App\API\obj\Debug\net9.0\ref\API.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\CS\Dating-App\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
