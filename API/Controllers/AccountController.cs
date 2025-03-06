@@ -18,13 +18,13 @@ namespace API.Controllers
 		[HttpPost("register")]
 		public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
 		{
-			if (await UserExists(registerDto.Username)) return BadRequest("Username is taken!!!");
+			if (await UserExists(registerDto.UserName)) return BadRequest("Username is taken!!!");
 
 			using var hmac = new HMACSHA512();
 
 			var user = new AppUser
 			{
-				UserName = registerDto.Username.ToLower(),
+				UserName = registerDto.UserName.ToLower(),
 				PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
 				PasswordSalt = hmac.Key
 			};
@@ -34,7 +34,7 @@ namespace API.Controllers
 
 			return new UserDto
 			{
-				Username = user.UserName,
+				UserName = user.UserName,
 				Token = tokenService.CreateToken(user)
 			};
 		}
@@ -43,7 +43,7 @@ namespace API.Controllers
 		public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
 		{
 			var user = await context.Users.FirstOrDefaultAsync(user =>
-				user.UserName == loginDto.Username.ToLower());
+				user.UserName == loginDto.UserName.ToLower());
 
 			if (user == null) return Unauthorized("Invalid username");
 
@@ -58,7 +58,7 @@ namespace API.Controllers
 
 			return new UserDto
 			{
-				Username = user.UserName,
+				UserName = user.UserName,
 				Token = tokenService.CreateToken(user)
 			};
 		}

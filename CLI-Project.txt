@@ -10,9 +10,9 @@ dotnet watch
 dotnet update
 dotnet run
 
-================ Angular 19.2.0 =======================
+================ Angular 18.0.4 =======================
 ng new ... => Css  => No
-npm install ngx-bootstrap@lastest bootstrap font-awesome
+npm install ngx-bootstrap@18.0.2 bootstrap font-awesome
 
 --- add nav ----
 ng g c nav --dry-run
