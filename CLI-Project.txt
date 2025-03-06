@@ -15,12 +15,18 @@ ng new ... => Css  => No
 npm install ngx-bootstrap@18.0.2 bootstrap font-awesome
 
 --- add nav ----
+
 ng g c nav --dry-run
 ng g c nav --skip-tests --dry-run
 ng g c nav --skip-tests
 
+ng g s _services/account --skip-tests  
+
+
 
 ng serve
+
+
 ====================== Extension ======================
 
 --------- .Net ----------
