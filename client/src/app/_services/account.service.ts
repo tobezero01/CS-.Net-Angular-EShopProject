@@ -30,6 +30,7 @@ export class AccountService {
           localStorage.setItem('user', JSON.stringify(user)); // Lưu token vào LocalStorage
           this.currentUser.set(user); // Cập nhật trạng thái đăng nhập
         }
+        return user;
       })
     );
   }
