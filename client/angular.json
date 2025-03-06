@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "client": {
+    "Client": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -41,8 +41,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumWarning": "2kB",
+                  "maximumError": "4kB"
                 }
               ],
               "outputHashing": "all"
@@ -56,18 +56,13 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          // "options": {
-          //   "ssl": true,
-          //   "sslCert": "./ssl/localhost.pem",
-          //   "sslKey": "./ssl/localhost-key.pem"
-          // },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "client:build:production"
+              "buildTarget": "Client:build:production"
             },
             "development": {
-              "buildTarget": "client:build:development"
+              "buildTarget": "Client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,17 +85,19 @@
               }
             ],
             "styles": [
-              "node_modules/bootstrap/dist/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           }
         }
       }
     }
   },
   "cli": {
-    "analytics": "25fcf805-3087-4044-88fe-b3e824c05921"
+    "analytics": false
   }
 }
