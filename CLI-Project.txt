@@ -23,7 +23,7 @@ ng g c home --skip-tests
 ng g s _services/account --skip-tests  
 
 
-
+npm install ngx-toastr
 ng serve
 
 
