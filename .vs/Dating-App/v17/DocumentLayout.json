@@ -99,8 +99,7 @@
               "RelativeToolTip": "API\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAnwCIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T04:58:37.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T04:58:37.869Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "API\\Controllers\\BaseApiController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T04:53:54.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T04:53:54.442Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "API\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T02:16:40.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T02:16:40.13Z"
             },
             {
               "$type": "Document",
@@ -138,8 +135,7 @@
               "RelativeToolTip": "API\\DTOs\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T18:16:54.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T18:16:54.45Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "API\\Entities\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:14:24.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T16:14:24.013Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "API\\DTOs\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T05:58:48.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T05:58:48.109Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "API\\Extensions\\IdentityServiceExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T08:05:32.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T08:05:32.329Z"
             },
             {
               "$type": "Document",

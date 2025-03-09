@@ -10,7 +10,7 @@ import { HomeComponent } from "./home/home.component";
   standalone : true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterOutlet, NavComponent, HomeComponent] // Nhúng NavComponent vào app chính
+  imports: [RouterOutlet, NavComponent] // Nhúng NavComponent vào app chính
  // Nhúng NavComponent vào app chính
 })
 export class AppComponent implements OnInit {
